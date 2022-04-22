@@ -4,11 +4,11 @@ import api from './services/api';
 import "./styles.css";
 
 function App() {
-  const [repository, setRepository] = useState([]);
+  const [repositories, setRepositories] = useState([]);
 
   useEffect(() =>{
-    api.get('repositories').then((response) => {
-      setRepository(response.data)
+    api.get('repositories').then(response => {
+      setRepositories(response.data)
     })
   }, []);
 
@@ -17,24 +17,24 @@ function App() {
       title: `Novo repositório ${Date.now()}`,
     })
 
-    setRepository([...repository, response.data]);
+    setRepositories([...repositories, response.data]);
   }
 
   async function handleRemoveRepository(id) {
-    const filteredRepository = await repository.filter((repositories) => repositories.id !== id);
+    const filteredRepository = await repositories.filter((repository) => repository.id !== id);
 
-    setRepository(filteredRepository);
+    setRepositories(filteredRepository);
   }
 
   return (
     <div>
 
       <ul data-testid="repository-list">
-        {repository.map(repositories => (
-        <div key={repositories.id}>
+        {repositories.map(repository => (
+        <div key={repository.id}>
 
-          <li>{repositories.title}</li>
-          <button className="remove" onClick={() => handleRemoveRepository(repositories.id)}>
+          <li>{repository.title}</li>
+          <button className="remove" onClick={() => handleRemoveRepository(repository.id)}>
             Remover
           </button>
 

@@ -64,4 +64,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para
 
 ---
 
-Feito pelo realizado pela Rocketseat e feito por João Augusto 🤝
+© Projeto realizado pela [Rocketseat](https://www.linkedin.com/school/rocketseat/) e feito por [João Augusto](https://www.linkedin.com/in/joaoaugustodevjs/) 🤝

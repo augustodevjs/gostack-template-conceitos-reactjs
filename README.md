@@ -1,14 +1,5 @@
-## :rocket: Sobre o desafio
+## :rocket: Desafio Completo
 <h1 align="left"><img  width="900" src="./public/foto-desafio.png"></h1>
-
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
-
-Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
-
-
-**Dica**: Caso não saiba utilizar repositórios do github como template, temos um guia em **[nosso FAQ](https://github.com/Rocketseat/bootcamp-gostack-desafios/tree/master/faq-desafios).**
-
-Agora navegue até a pasta criada e abra no Visual Studio Code, execute o comando `yarn` no seu terminal para instalar todas as dependências e já estará pronto para iniciar.
 
 ### Funcionalidades da aplicação
 

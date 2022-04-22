@@ -5,35 +5,34 @@
 }
 
 body {
-  font-size: 14px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div {
-  width: 100%;
   margin: 20px;
+  margin-top: 30px;
 }
 
 div li {
-  display: flex;
-  align-items: center;
-}
-
-div li + li {
-  margin-top: 15px;
+  display: inline;
 }
 
 button {
   background: #7159c1;
   color: #fff;
   border: 0;
-  padding: 10px 15px;
+  padding: 10px 20px;
   cursor: pointer;
-  margin-top: 15px;
   font-weight: bold;
   font-size: 14px;
 }
 
-div li button {
-  margin: 0 15px;
+.add {
+  margin-left: 20px;
+}
+
+.remove {
+  margin: 0 10px;
   background: #ca4949;
 }
